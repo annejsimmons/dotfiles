@@ -1,0 +1,15 @@
+[user]
+  name = Tim Goodwin 
+  email = trgoodwin@gmail.com
+[alias]
+  co = checkout
+  ci = commit
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+  excludesfile = /Users/trgoodwin/.gitignore
+  editor = vim 
+[apply]
+  whitespace = nowarn

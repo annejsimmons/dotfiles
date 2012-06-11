@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+[ -n "$DBG_INSTALL" ] && set -x
+
+dotfilesdir=$(cd $(dirname "$0")/../ && pwd)
+for f in $(ls -a $dotfilesdir | egrep -v 'README\.md|DS_Store|\.git$|^\.\.$|^\.$|\.gitmodules')
+do
+  dest="$HOME/$f"
+  test -e $dest && rm -rf $dest
+  ln -s "$dotfilesdir/$f" $dest
+done
+
+ssh_config="$HOME/.ssh/config" 
+test -e $ssh_config && rm $ssh_config
+ln -s $dotfilesdir/ssh/config $ssh_config
+

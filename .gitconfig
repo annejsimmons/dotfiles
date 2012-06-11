@@ -9,7 +9,7 @@
   status = auto
   branch = auto
 [core]
-  excludesfile = /Users/Timothy/.gitignore
+  excludesfile = /Users/trgoodwin/.gitignore
   editor = vim 
 [apply]
   whitespace = nowarn

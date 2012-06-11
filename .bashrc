@@ -37,20 +37,6 @@ export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJD
 export PATH="$HOME/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
-# functions ---------------------------------------------------
-function avis2mp4s {
-  for FILE in $(ls *.avi); do avi2mp4 $FILE; done
-}
-
-function avi2mp4 {
-  HandBrakeCLI -i $1 -o ${1/.avi/.mp4} --preset="iPad" 
-}
-
-#cat video1.avi video2.avi videon.avi > output.avi
-#mencoder -forceidx -oac copy -ovc copy output.avi -o output_final.avi
-#rm output.avi
-#http://media.stefpause.co.uk/mplayer_osx/mencoder.zip
-
 # set PS1 with git completions --------------------------------
 GIT_PS1_SHOWDIRTYSTATE=true
 if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then

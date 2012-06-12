@@ -10,6 +10,7 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 # aliases -----------------------------------------------------
 
 # general
+alias ls="ls -la"
 alias la="ls -lach"
 alias lsd="ls | grep ^d"
 alias c='clear'

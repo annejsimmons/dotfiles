@@ -13,3 +13,5 @@
   editor = vim 
 [apply]
   whitespace = nowarn
+[credential]
+  helper = osxkeychain

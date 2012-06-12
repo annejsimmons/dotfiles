@@ -36,6 +36,8 @@ set wildmenu
 set wildmode=list:longest
 set wildignore+=*.o,*.obj,.git,.svn,*.jar,"help/**"
 
+let NERDTreeShowHidden=1
+
 " invisible characters
 set listchars=trail:.,tab:>-,eol:$
 set nolist

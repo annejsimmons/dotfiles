@@ -29,8 +29,6 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias glg='git log --pretty=oneline'
 
-alias b='bundle exec'
-
 # postgresql
 alias start_pgsql='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias stop_pgsql='pg_ctl -D /usr/local/var/postgres stop -s -m fast'

@@ -35,7 +35,7 @@ alias stop_pgsql='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 # paths -------------------------------------------------------
 export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/"
-export PATH="$HOME/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:$PATH"
+export PATH="$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 # set PS1 with git completions --------------------------------

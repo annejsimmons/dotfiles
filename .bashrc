@@ -10,12 +10,15 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 # aliases -----------------------------------------------------
 
 # general
-alias ls="ls -la"
+alias ls="ls"
+alias ll="ls -la"
 alias la="ls -lach"
 alias lsd="ls | grep ^d"
-alias c='clear'
-alias rp='source $HOME/.bashrc'
 alias nerd='vim -c NERDTree'
+
+alias c='clear'
+alias ep='vi $HOME/.bashrc'
+alias rp='source $HOME/.bashrc'
 
 # git aliases
 alias gst='git status'
@@ -27,7 +30,8 @@ alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
-alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
+alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
 # postgresql
 alias start_pgsql='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias stop_pgsql='pg_ctl -D /usr/local/var/postgres stop -s -m fast'

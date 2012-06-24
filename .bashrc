@@ -1,4 +1,5 @@
 # environment -------------------------------------------------
+export HISTSIZE=10000
 
 # scm
 export EDITOR='vim'
@@ -31,6 +32,10 @@ alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
 alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+#bundle
+alias b='bundle'
+alias be='b exec'
 
 # postgresql
 alias start_pgsql='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'

@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+  "font_size": 15.0,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+  "highlight_line": true,
+  "save_on_focus_lost": true,
+  "find_selected_text": true
+}

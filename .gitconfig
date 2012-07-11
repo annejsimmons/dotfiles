@@ -15,3 +15,5 @@
   whitespace = nowarn
 [credential]
   helper = osxkeychain
+[github]
+	user = trgoodwin

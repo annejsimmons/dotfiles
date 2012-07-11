@@ -32,6 +32,7 @@ alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
 alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias grm='gst | awk '\''/deleted/ {print $3}'\'' | xargs git rm'
 
 #bundle
 alias b='bundle'

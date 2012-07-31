@@ -1,6 +1,6 @@
 [user]
-  name = Tim Goodwin 
-  email = trgoodwin@gmail.com
+  name = Anne Simmons
+  email = annejsimmons@gmail.com
 [alias]
   co = checkout
   ci = commit
@@ -9,11 +9,11 @@
   status = auto
   branch = auto
 [core]
-  excludesfile = /Users/trgoodwin/.gitignore
+  excludesfile = /Users/annejsimmons/.gitignore
   editor = vim 
 [apply]
   whitespace = nowarn
 [credential]
   helper = osxkeychain
 [github]
-	user = trgoodwin
+	user = annejsimmons

@@ -9,11 +9,11 @@
   status = auto
   branch = auto
 [core]
-  excludesfile = /Users/annejsimmons/.gitignore
+  excludesfile = /Users/asimmons/.gitignore
   editor = vim 
 [apply]
   whitespace = nowarn
 [credential]
   helper = osxkeychain
 [github]
-	user = annejsimmons
+  user = annejsimmons
